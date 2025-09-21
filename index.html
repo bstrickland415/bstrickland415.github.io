@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
-  <title>The Microtechs - Lead Management Dashboard</title>
-  <meta name="description" content="Lead qualification and management system for The Microtechs web development firm - themicrotechs.org" />
+  <title>The Microtechs - Lead Dashboard</title>
+  <meta name="description" content="Lead Management Dashboard for The Microtechs" />
   <meta name="author" content="The Microtechs" />
 
-  <meta property="og:title" content="The Microtechs - Lead Management Dashboard" />
-  <meta property="og:description" content="Lead qualification and management system for The Microtechs web development firm - themicrotechs.org" />
+  <meta property="og:title" content="The Microtechs - Lead Dashboard" />
+  <meta property="og:description" content="Lead Management Dashboard for The Microtechs" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://themicrotechs.org" />
 
+  <script>
+    // GitHub Pages SPA redirect handling
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
-
 
 </html>
