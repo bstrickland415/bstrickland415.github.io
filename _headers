@@ -1,2 +1,4 @@
-302 Found
-Location: /index.html
+# a path:
+/main/index.html
+  # headers for that path:
+  X-Frame-Options: DENY
