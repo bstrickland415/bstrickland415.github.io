@@ -1,4 +1,4 @@
 # a path:
 /main/index.html
   # headers for that path:
-  X-Frame-Options: DENY
+  X-Frame-Options: no-sniff
