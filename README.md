@@ -58,16 +58,17 @@ pnpm i
 
 ```shell
 pnpm add some_new_dependency
-
+```
 **Start Preview**
 
 ```shell
 pnpm run dev
 ```
 
-**To build**
+**To Build**
 
 ```shell
 pnpm run build
 ```
+## For high quality web design at a fair price with highly skilled development visit https://www.themicrotechs.org !!!
 
